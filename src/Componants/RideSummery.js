@@ -1,104 +1,83 @@
 import React from 'react'
+import './RideSummery.css';
 
 
 
 function RideSummery() {
     return (
-      <>
-      <containor>
-         <form class="needs-validation abc" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required=""/>
-              <div class="invalid-feedback">
-                Valid first name is required.
-              </div>
+         <>
+         <div class="form1">
+            <div class="heading">
+                <h3>Ride Summary</h3>
+                <h3>Ride 1</h3>
             </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required=""/>
-              <div class="invalid-feedback">
-                Valid last name is required.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="username" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required=""/>
-              <div class="invalid-feedback">
-                  Your username is required.
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com"/>
-              <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required=""/>
-              <div class="invalid-feedback">
-                Please enter your shipping address.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite"/>
-            </div>
-
-            <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required="">
-                <option value="">Choose...</option>
-                <option>United States</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid country.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required="">
-                <option value="">Choose...</option>
-                <option>California</option>
-              </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required="" />
-              <div class="invalid-feedback">
-                Zip code required.
-              </div>
-            </div>
-          </div>
-
-          
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
-        </form>
-        </containor>
-
-      
-      
-      
-      </>
-      
+            Pick up From <br/><input type="text" name="pickup"/>
+            <br/>
+            <br/>
+            <br/>
+            Drop off to<br/> <input type="text" name="pickup"/>
+            Drop off to<br/> <input type="text" name="pickup"/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            from date<br/> <input type="date" name="date"/> to date <input type="date" name="date"/>
+            from date<br/> <input type="date" name="date"/> to date <input type="date" name="date"/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            For rides <br/><input type="number" name="no"/>
+            For rides <br/><input type="number" name="no"/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            Distance<br/> <input type="number"/>
+            Distance<br/> <input type="number"/>
+            <br/><br/>
+            <br/><br/>
+            Time<br/> <input type="time" name="time"/>
+            Time<br/> <input type="time" name="time"/>
+            <br/><br/>
+            <br/><br/>
+            Sign in : <u>$0</u>
+            Sign in : <u>$0</u>
+            <br/><br/>
+            <br/><br/>
+            Sign Out: <u>$0</u>
+            Sign Out: <u>$0</u>
+            <br/><br/>
+            <br/><br/>
+            Weekly Cost<br/><input type="number" name="cost"/><br/><br/>
+            Weekly Cost<br/><input type="number" name="cost"/><br/><br/>
+            FOR EVERY <br/> <input type="checkbox" id=" " name="mon" value=" "/>
+            FOR EVERY <br/> <input type="checkbox" id=" " name="mon" value=" "/>
+            <label for=" "> MONDAY</label><br/><input type="checkbox" id=" " name="tue" value=" "/>
+            <label for=" "> MONDAY</label><br/><input type="checkbox" id=" " name="tue" value=" "/>
+            <label for=" "> TUESDAY</label><br/><input type="checkbox" id=" " name="Thu" value=" "/>
+            <label for=" "> TUESDAY</label><br/><input type="checkbox" id=" " name="Thu" value=" "/>
+            <label for=" "> THURSDAY</label><br/><input type="checkbox" id=" " name="Fri" value=" "/>
+            <label for=" "> THURSDAY</label><br/><input type="checkbox" id=" " name="Fri" value=" "/>
+            <label for=" "> FRIDAY</label><br/>  PICK UP AT  <input type="time" name="time"/>&nbsp;DROP OFF AT  <input type="time" name="time"/>
+            <label for=" "> FRIDAY</label><br/>  PICK UP AT  <input type="time" name="time"/>&nbsp;DROP OFF AT  <input type="time" name="time"/>
+            <br/><br/>
+            <br/><br/>
+            RETURN &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time"/>
+            RETURN &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time"/>
+            <br/><br/>
+            <br/><br/>
+            EVERY &nbsp; WEDNESDAY &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time"/><br/><br/>
+            EVERY &nbsp; WEDNESDAY &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time"/><br/><br/>
+            RETURN &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time">
+            RETURN &nbsp; PICK &nbsp; UP &nbsp;AT&nbsp; <input type="time" name="time"/>&nbsp;DROP&nbsp; OFF&nbsp; AT&nbsp; <input type="time" name="time">
+            <br/><br/>
+            <br/><br/>
+            BREAK &nbsp;FROM<input type="date"/><input type="time">TO<input type="date"/><input type="time">
+            BREAK &nbsp;FROM<input type="date"/><input type="time">TO<input type="date"/><input type="time">
+    </div>
+</>   
     );
   }
-  
   export default RideSummery;
   
