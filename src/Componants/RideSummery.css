@@ -1,5 +1,18 @@
-#containor {
-    width :80%;
-    background-color:rgb(180, 122, 45);
-    height: 500px;
-}
+body{
+    background-color: #ECEDF3;
+    padding-left: 15%;
+    padding-top: 5%;
+  }
+  
+  .form1 {
+      width:  40%;
+      padding-left:10%;
+      padding-right: 20%;
+      line-height: 20px;
+      background-color: #FFFFff;
+  }
+  
+  .heading {
+    
+    border-bottom: #0000;
+  }
