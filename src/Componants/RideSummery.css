@@ -6,6 +6,8 @@ body{
   
   .form1 {
       width:  40%;
+      padding-top: 5%;
+      padding-bottom: 5%;
       padding-left:10%;
       padding-right: 20%;
       line-height: 20px;
@@ -16,3 +18,11 @@ body{
     
     border-bottom: #0000;
   }
+
+  button{
+    margin:0px 10px
+      }
+
+.div-navs{
+  margin-bottom: 40px;
+}
