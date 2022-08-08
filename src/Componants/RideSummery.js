@@ -1,5 +1,6 @@
 import React from "react";
 import "./RideSummery.css";
+import Input from "./Input";
 
 class RideSummery extends React.Component {
   constructor(props) {
@@ -35,10 +36,9 @@ class RideSummery extends React.Component {
           <h3>Ride 1</h3>
         </div>
         <form onSubmit={this.handleSubmit}>
-          Pick up From
-          <input
+          <Input
             type="text"
-            label="pickup"
+            label="Pick Up From"
             id="pickup"
             name="pickup"
             onChange={this.handleInputChange}
