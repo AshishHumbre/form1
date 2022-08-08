@@ -20,6 +20,13 @@ class RideSummery extends React.Component {
     
     alert(`Pick up from : ${this.state.pickup}`)
   };
+
+  isValid=()=>{
+    if(this.state.pickup===''){
+        return false
+    }
+    return true;
+  }
   render() {
     return (
       <div class="form1">
@@ -185,7 +192,7 @@ class RideSummery extends React.Component {
           <button type="cancel" name="add-another-ride">
             Cancel
           </button>
-          <button type="submit" name="add-another-ride">
+          <button disabled={!this.isValid()} type="submit" name="add-another-ride">
             Submit
           </button>
         </form>

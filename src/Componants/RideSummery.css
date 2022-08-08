@@ -1,15 +1,11 @@
 body{
     background-color: #ECEDF3;
-    padding-left: 15%;
-    padding-top: 5%;
+    padding: 5%;
   }
   
-  .form1 {
+  .form1 {margin: 0px auto;
       width:  40%;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left:10%;
-      padding-right: 20%;
+      padding:5% 10%;
       line-height: 20px;
       background-color: #FFFFff;
   }
