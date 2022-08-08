@@ -52,7 +52,6 @@ class RideSummery extends React.Component {
           <br />
           <br />
           <br />
-          <br />
           from date
           <input type="date" name="date" /> to date{" "}
           <input type="date" name="date" />
@@ -63,10 +62,8 @@ class RideSummery extends React.Component {
           <br />
           <br />
           <br />
-          <br />
           Distance
           <input type="number" />
-          <br />
           <br />
           <br />
           <br />
@@ -78,9 +75,8 @@ class RideSummery extends React.Component {
           Sign in : <u>$0</u>
           <br />
           <br />
-
+    
           Sign Out: <u>$0</u>
-          <br />
           <br />
           <br />
           <br />
@@ -88,26 +84,25 @@ class RideSummery extends React.Component {
           <input type="number" name="cost" />
           <br />
           <br />
-
           <br />
+
+
           FOR EVERY <br /> <input type="checkbox" id=" " name="mon" value=" " />
           <label for=" "> MONDAY</label>
           <br />
-
           <input type="checkbox" id=" " name="tue" value=" " />
           <label for=" "> TUESDAY</label>
           <br />
-
           <input type="checkbox" id=" " name="Thu" value=" " />
           <label for=" "> THURSDAY</label>
           <br />
-
           <input type="checkbox" id=" " name="Fri" value=" " />
           <label for=" "> FRIDAY</label>
-          <br/>
-          <br /> PICK UP AT <input type="time" name="time" />
+          <br />
+          <br />
+          <br /> 
+          PICK UP AT <input type="time" name="time" />
           &nbsp;DROP OFF AT <input type="time" name="time" />
-
           <br />
           <br />
           <br />
