@@ -1,0 +1,136 @@
+body {
+  background-color: #ecedf3;
+}
+.form1 {
+  margin: 0px auto;
+  width: 70%;
+}
+
+.form1 h3 {
+  padding: 0 35px;
+}
+.form-box {
+  padding: 2px 35px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.699),0 0px 6px 0 rgba(128, 128, 128, 0.699);;
+}
+.field {
+  font-size: 1em;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b8bdc9;
+  color: #2c3345;
+}
+.field-text {
+  width: 310px;
+  height: 2.5em;
+  outline: 0;
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.field-number {
+  width: 100px;
+  height: 2.5em;
+  outline: 0;
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.field-checkbox {
+}
+
+.field-time {
+  height: 2.5em;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.field-date {
+  height: 2.5em;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.field:hover {
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgba(46, 105, 255, 0.5);
+  box-shadow: 0 0 0 2px rgb(46 105 255 / 25%);
+}
+
+.form-input-sec {
+  margin: 30px 0px;
+}
+.form-input-sec label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 2px;
+  color: #2c3345;
+  margin-right: 10px;
+}
+
+.form-input-sec div {
+  margin-top: 10px;
+}
+
+.button-div {
+  margin: 90px 0px;
+}
+
+.button-div button {
+  width: 160px;
+  height: 2.5em;
+  margin: 4px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+#submit {
+  background-color: #00b48d;
+  border: 1px solid #00b48d;
+  color: black;
+}
+#submit:hover {
+  background-color: #008568;
+  border: 1px solid #008568;
+  color: rgb(255, 255, 255);
+}
+
+#cancel {
+  background-color: #ff6d00;
+  border: 1px solid #ff6d00;
+  color: black;
+}
+#cancel:hover {
+  background-color: #b64f00;
+  border: 1px solid #b64f00;
+  color: rgb(255, 255, 255);
+}
+
+#add-anoter-ride {
+  background-color: #ffffff;
+  border: 1px solid #00b48d;
+  color: black;
+  
+  
+}
+#add-anoter-ride:hover {
+  border: 2px solid #00b48d;
+  box-shadow: 0 0px 6px 0 #00b48d, 0 0px 6px 0 #00b48d;
+  color:#008568;
+}
+
+#add-anoter-ride[disabled],#submit[disabled]{
+    background-color:rgb(199, 199, 199);
+    border: 1px solid rgb(185, 185, 185);
+    color:#919191;
+}

@@ -1,8 +1,14 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { createStore, combineReducers } from "redux";
+import { reducer as reduxFormReducer } from "redux-form";
+import account from "../features/ride";
 
-export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+const reducer = combineReducers({
+    account,
+    form: reduxFormReducer, // mounted under "form"
+  });
+
+const store = (
+    window.devToolsExtension ? window.devToolsExtension()(createStore): createStore
+  )(reducer);
+
+  export default store;
